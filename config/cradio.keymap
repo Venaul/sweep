@@ -9,14 +9,9 @@
 
         gaming {
             bindings = <&tog 3>;
-            key-positions = <5 7 9 29 32>;
+            key-positions = <5 7 9>;
             require-prior-idle-ms = <1000>;
-        };
-
-        settings {
-            bindings = <&mo 5>;
-            key-positions = <31 30>;
-            require-prior-idle-ms = <2000>;
+            layers = <2>;
         };
     };
 
@@ -37,7 +32,7 @@
 &kp N1          &kp N2          &kp N3          &kp N4           &kp N5           &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
 &kp ESCAPE      &kp LEFT_ARROW  &kp UP          &kp RIGHT_ARROW  &kp LG(LS(S))    &trans  &kp N4  &kp N5  &kp N6  &kp APOS
 &kp LEFT_SHIFT  &kp LG(TAB)     &kp DOWN_ARROW  &mkp LCLK        &mkp RCLK        &trans  &kp N1  &kp N2  &kp N3  &trans
-                                                &trans           &trans           &trans  &kp N0
+                                                &mo 5            &trans           &trans  &kp N0
             >;
         };
 
