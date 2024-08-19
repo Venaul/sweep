@@ -17,10 +17,10 @@
 
         typing {
             bindings = <
-&kp Q             &kp W  &kp F  &kp P      &kp G          &kp J        &kp L     &kp U      &kp Y    &kp SEMI
-&kp A             &kp R  &kp S  &kp T      &kp D          &kp H        &kp N     &kp E      &kp I    &kp O
-&mt LEFT_SHIFT Z  &kp X  &kp C  &kp V      &kp B          &kp K        &kp M     &kp COMMA  &kp DOT  &mt RIGHT_SHIFT FSLH
-                                &kp LCTRL  &lt 1 SPACE    &lt 2 ENTER  &kp BSPC
+&kp Q             &kp W  &kp F  &kp P      &kp G          &kp J        &kp L                   &kp U      &kp Y    &kp SEMI
+&kp A             &kp R  &kp S  &kp T      &kp D          &kp H        &kp N                   &kp E      &kp I    &kp O
+&mt LEFT_SHIFT Z  &kp X  &kp C  &kp V      &kp B          &kp K        &kp M                   &kp COMMA  &kp DOT  &mt RIGHT_SHIFT FSLH
+                                &kp LCTRL  &lt 1 SPACE    &lt 2 ENTER  &mt LC(BSPC) BACKSPACE
             >;
         };
 
