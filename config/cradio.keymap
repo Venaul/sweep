@@ -12,6 +12,13 @@
             key-positions = <5 7 9 0 2 4>;
             require-prior-idle-ms = <1000>;
         };
+
+        soft-off {
+            bindings = <&soft_off>;
+            key-positions = <10 12 14>;
+            require-prior-idle-ms = <1000>;
+            layers = <5>;
+        };
     };
 
     keymap {
