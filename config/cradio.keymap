@@ -9,9 +9,8 @@
 
         gaming {
             bindings = <&tog 3>;
-            key-positions = <5 7 9>;
+            key-positions = <5 7 9 0 2 4>;
             require-prior-idle-ms = <1000>;
-            layers = <2>;
         };
     };
 
